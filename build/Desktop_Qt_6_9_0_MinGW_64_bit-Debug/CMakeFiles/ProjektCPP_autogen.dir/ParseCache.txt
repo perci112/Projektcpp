@@ -2307,6 +2307,7 @@ C:/Users/barte/OneDrive/Dokumenty/ProjektCPP/assignstudentswindow.cpp
  uic:ui_assignstudentswindow.h
 C:/Users/barte/OneDrive/Dokumenty/ProjektCPP/employeewindow.h
  mmc:Q_OBJECT
+ mdp:C:/Qt/6.9.0/mingw_64/include/QtCore/QDate
  mdp:C:/Qt/6.9.0/mingw_64/include/QtCore/q17memory.h
  mdp:C:/Qt/6.9.0/mingw_64/include/QtCore/q20functional.h
  mdp:C:/Qt/6.9.0/mingw_64/include/QtCore/q20iterator.h
@@ -2329,6 +2330,7 @@ C:/Users/barte/OneDrive/Dokumenty/ProjektCPP/employeewindow.h
  mdp:C:/Qt/6.9.0/mingw_64/include/QtCore/qbytearrayalgorithms.h
  mdp:C:/Qt/6.9.0/mingw_64/include/QtCore/qbytearraylist.h
  mdp:C:/Qt/6.9.0/mingw_64/include/QtCore/qbytearrayview.h
+ mdp:C:/Qt/6.9.0/mingw_64/include/QtCore/qcalendar.h
  mdp:C:/Qt/6.9.0/mingw_64/include/QtCore/qchar.h
  mdp:C:/Qt/6.9.0/mingw_64/include/QtCore/qcompare.h
  mdp:C:/Qt/6.9.0/mingw_64/include/QtCore/qcompare_impl.h
@@ -2342,6 +2344,7 @@ C:/Users/barte/OneDrive/Dokumenty/ProjektCPP/employeewindow.h
  mdp:C:/Qt/6.9.0/mingw_64/include/QtCore/qcontiguouscache.h
  mdp:C:/Qt/6.9.0/mingw_64/include/QtCore/qdarwinhelpers.h
  mdp:C:/Qt/6.9.0/mingw_64/include/QtCore/qdatastream.h
+ mdp:C:/Qt/6.9.0/mingw_64/include/QtCore/qdatetime.h
  mdp:C:/Qt/6.9.0/mingw_64/include/QtCore/qdebug.h
  mdp:C:/Qt/6.9.0/mingw_64/include/QtCore/qendian.h
  mdp:C:/Qt/6.9.0/mingw_64/include/QtCore/qexceptionhandling.h
@@ -2361,6 +2364,7 @@ C:/Users/barte/OneDrive/Dokumenty/ProjektCPP/employeewindow.h
  mdp:C:/Qt/6.9.0/mingw_64/include/QtCore/qlatin1stringview.h
  mdp:C:/Qt/6.9.0/mingw_64/include/QtCore/qline.h
  mdp:C:/Qt/6.9.0/mingw_64/include/QtCore/qlist.h
+ mdp:C:/Qt/6.9.0/mingw_64/include/QtCore/qlocale.h
  mdp:C:/Qt/6.9.0/mingw_64/include/QtCore/qlogging.h
  mdp:C:/Qt/6.9.0/mingw_64/include/QtCore/qmalloc.h
  mdp:C:/Qt/6.9.0/mingw_64/include/QtCore/qmap.h

@@ -42,7 +42,12 @@ template <> constexpr inline auto employeewindow::qt_create_metaobjectdata<qt_me
         "on_subjectComboBox_currentIndexChanged",
         "",
         "index",
-        "on_assignGradeButton_clicked"
+        "on_assignGradeButton_clicked",
+        "on_saveAttendanceButton_clicked",
+        "on_saveScheduleButton_clicked",
+        "on_calendarWidget_clicked",
+        "date",
+        "on_subject2ComboBox_currentIndexChanged"
     };
 
     QtMocHelpers::UintData qt_methods {
@@ -52,6 +57,18 @@ template <> constexpr inline auto employeewindow::qt_create_metaobjectdata<qt_me
         }}),
         // Slot 'on_assignGradeButton_clicked'
         QtMocHelpers::SlotData<void()>(4, 2, QMC::AccessPrivate, QMetaType::Void),
+        // Slot 'on_saveAttendanceButton_clicked'
+        QtMocHelpers::SlotData<void()>(5, 2, QMC::AccessPrivate, QMetaType::Void),
+        // Slot 'on_saveScheduleButton_clicked'
+        QtMocHelpers::SlotData<void()>(6, 2, QMC::AccessPrivate, QMetaType::Void),
+        // Slot 'on_calendarWidget_clicked'
+        QtMocHelpers::SlotData<void(const QDate &)>(7, 2, QMC::AccessPrivate, QMetaType::Void, {{
+            { QMetaType::QDate, 8 },
+        }}),
+        // Slot 'on_subject2ComboBox_currentIndexChanged'
+        QtMocHelpers::SlotData<void(int)>(9, 2, QMC::AccessPrivate, QMetaType::Void, {{
+            { QMetaType::Int, 3 },
+        }}),
     };
     QtMocHelpers::UintData qt_properties {
     };
@@ -77,6 +94,10 @@ void employeewindow::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _
         switch (_id) {
         case 0: _t->on_subjectComboBox_currentIndexChanged((*reinterpret_cast< std::add_pointer_t<int>>(_a[1]))); break;
         case 1: _t->on_assignGradeButton_clicked(); break;
+        case 2: _t->on_saveAttendanceButton_clicked(); break;
+        case 3: _t->on_saveScheduleButton_clicked(); break;
+        case 4: _t->on_calendarWidget_clicked((*reinterpret_cast< std::add_pointer_t<QDate>>(_a[1]))); break;
+        case 5: _t->on_subject2ComboBox_currentIndexChanged((*reinterpret_cast< std::add_pointer_t<int>>(_a[1]))); break;
         default: ;
         }
     }
@@ -101,14 +122,14 @@ int employeewindow::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
     if (_id < 0)
         return _id;
     if (_c == QMetaObject::InvokeMetaMethod) {
-        if (_id < 2)
+        if (_id < 6)
             qt_static_metacall(this, _c, _id, _a);
-        _id -= 2;
+        _id -= 6;
     }
     if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
-        if (_id < 2)
+        if (_id < 6)
             *reinterpret_cast<QMetaType *>(_a[0]) = QMetaType();
-        _id -= 2;
+        _id -= 6;
     }
     return _id;
 }

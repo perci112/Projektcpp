@@ -7,7 +7,7 @@
 				{
 					"build" : ".",
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-.-Debug-21a918c509d6a92324b4.json",
+					"jsonFile" : "directory-.-Debug-557479db45fa07066821.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.16"
@@ -44,7 +44,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "ProjektCPP::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-ProjektCPP-Debug-d141af4c49f5abe7ddc8.json",
+					"jsonFile" : "target-ProjektCPP-Debug-50523d352b822cac9891.json",
 					"name" : "ProjektCPP",
 					"projectIndex" : 0
 				},
